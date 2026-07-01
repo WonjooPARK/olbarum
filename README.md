@@ -36,7 +36,7 @@ List configured booking products:
 python -m backend.naver_booking_api list-products
 ```
 
-Check available times for `BodyCare 대표원장 '황세영'`:
+Check available 60-minute times for the director product:
 
 ```powershell
 python -m backend.naver_booking_api check --start 2026-07-15 --end 2026-07-31 --product director --option 60
